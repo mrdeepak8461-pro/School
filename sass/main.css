@@ -1,0 +1,451 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+header .hed_top {
+  background-color: #FFC23D;
+}
+
+header .hed_main nav .nav-item a {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+header .hed_main nav .nav-item .dropdown-toggle {
+  color: black;
+}
+
+header .hed_fot .owl-carousel {
+  position: relative;
+}
+
+header .hed_fot .owl-carousel .owl-nav {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  font-size: 3rem;
+}
+
+header .hed_fot .owl-carousel .owl-nav .owl-prev:hover {
+  background-color: transparent;
+}
+
+header .hed_fot .owl-carousel .owl-nav .owl-next:hover {
+  background-color: transparent;
+}
+
+header .hed_fot .owl-carousel .item {
+  position: relative;
+}
+
+header .hed_fot .owl-carousel .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+header .hed_fot .owl-carousel .overlay .container .text {
+  font-family: 'Supermercado One';
+  height: 80vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .hed_fot .owl-carousel .overlay .container .text h1 {
+  font-size: 4rem;
+}
+
+header .hed_fot .owl-carousel .overlay .container .text .d-grid {
+  margin-top: 2rem;
+}
+
+header .hed_fot .owl-carousel .overlay .container .text .d-grid .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+}
+
+.card_section {
+  padding-top: 4rem;
+}
+
+.card_section .card_parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card_section .card_parent .card {
+  max-width: 300px;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 2.5rem 0rem;
+}
+
+.card_section .card_parent .card i {
+  font-size: 4rem;
+  margin: 1.5rem;
+}
+
+.card_section .card_parent .card h3 {
+  margin: 1.5rem 0rem;
+}
+
+.card_section .card_parent .card:hover {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.6);
+          box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.6);
+}
+
+.card_section .card_parent a {
+  color: white;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.card_section .card_parent a:hover {
+  color: black;
+}
+
+.card_section .card_parent .card:first-child {
+  background-color: #3E73DE;
+}
+
+.card_section .card_parent .card:nth-child(2n) {
+  background-color: #46B7A6;
+}
+
+.card_section .card_parent .card:nth-child(3n) {
+  background-color: #FB803F;
+}
+
+.who_we_are {
+  padding-top: 5rem;
+}
+
+.who_we_are ul {
+  list-style: none;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+.who_we_are ul li i {
+  color: #FFC23D;
+}
+
+.who_we_are h5 {
+  font-family: "Supermercado One";
+  color: #FFC23D;
+  font-size: 1.8rem;
+}
+
+.who_we_are h4 {
+  font-family: "Supermercado One";
+  font-size: 2rem;
+}
+
+.who_we_are p {
+  font-weight: 500;
+}
+
+.who_we_are img {
+  border-radius: 0rem 0rem 0rem 6rem;
+}
+
+.academics {
+  padding-top: 4rem;
+  background-color: #F8F9FA;
+}
+
+.academics h5 {
+  color: #FFC23D;
+  font-weight: 500;
+}
+
+.academics .card {
+  margin-top: 3rem;
+}
+
+.academics .card .card-body h4 {
+  color: #FFC23D;
+}
+
+.academics .card .card-body p {
+  font-weight: 500;
+  color: gray;
+}
+
+.achievements {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/background3.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/background3.png");
+  background-size: 100%;
+}
+
+.achievements h3 {
+  font-family: "Supermercado One";
+}
+
+.achievements .row {
+  margin-top: 4rem;
+}
+
+.achievements i {
+  font-size: 4rem;
+  color: #FFC23D;
+  margin: 2rem 0rem;
+}
+
+.achievements p {
+  font-size: 1.3rem;
+}
+
+.tours_and_events {
+  background-color: #F8F9FA;
+  padding: 4rem 0rem;
+}
+
+.tours_and_events .card {
+  margin-top: 2rem;
+}
+
+.tours_and_events h3 {
+  color: #FFC23D;
+  font-family: "Supermercado One";
+}
+
+.tours_and_events h2 {
+  margin: 1rem 0rem;
+  font-family: "Supermercado One";
+}
+
+.tours_and_events .icons i {
+  margin-right: 0.5rem;
+}
+
+.tours_and_events h5 {
+  font-family: "Supermercado One";
+  font-weight: 500;
+}
+
+.tours_and_events p {
+  font-family: "Supermercado One";
+  font-size: 1.2rem;
+}
+
+.tours_and_events .card-footer span {
+  font-size: 0.8rem;
+}
+
+.testimonial h3 {
+  color: #FFC23D;
+  font-family: "Supermercado One";
+}
+
+.testimonial h2 {
+  margin: 1rem 0rem;
+  font-family: "Supermercado One";
+}
+
+.testimonial .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial .row p {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.testimonial .row .name {
+  margin-top: 1rem;
+  bottom: 0%;
+}
+
+.testimonial .testimonial_footer {
+  background-color: #FB803F;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.testimonial .testimonial_footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonial .testimonial_footer .container h4 {
+  padding-top: 1rem;
+  font-family: "Supermercado One";
+}
+
+footer {
+  background-color: #202C45;
+  padding-top: 3rem;
+  color: white;
+}
+
+footer .footer_top h3 {
+  font-family: "Supermercado One";
+  color: #FB803F;
+  font-weight: bold;
+}
+
+footer .footer_top ul {
+  list-style: none;
+  padding: 0rem;
+}
+
+footer .footer_top ul li a {
+  color: white;
+}
+
+footer .footer_top ul li a i {
+  line-height: 1.6rem;
+  padding: 0.3rem;
+}
+
+footer .footer_main {
+  text-align: center;
+  padding: 1rem 0rem;
+  background-color: black;
+}
+
+footer .footer_main h5 {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 80%;
+  }
+  header .hed_fot .overlay .text {
+    visibility: hidden;
+  }
+  .who_we_are {
+    padding-top: 1rem;
+  }
+  .who_we_are .d-grid {
+    visibility: hidden;
+  }
+  .who_we_are img {
+    margin-top: -5rem;
+  }
+  .academics {
+    padding-top: 1rem;
+  }
+  .achievements {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/background3.png");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/background3.png");
+    background-size: cover;
+  }
+  .achievements h3 {
+    font-family: "Supermercado One";
+  }
+  .achievements .row {
+    margin-top: 2rem;
+  }
+  .testimonial .row p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1.5rem 0rem;
+  }
+  .testimonial .testimonial_footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonial .testimonial_footer .container h4 {
+    padding: 1rem 0rem;
+    font-family: "Supermercado One";
+  }
+  footer .footer_top h3 {
+    font-family: "Supermercado One";
+    color: #FB803F;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  footer .footer_top ul {
+    list-style: none;
+    padding: 0rem;
+  }
+  footer .footer_top ul li {
+    text-align: center;
+  }
+  footer .footer_top ul li a {
+    color: white;
+  }
+  footer .footer_top ul li a i {
+    line-height: 1.6rem;
+    padding: 0.3rem;
+  }
+  footer .footer_top ul li a p {
+    font-size: 1.2rem;
+  }
+  footer .footer_main {
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: black;
+  }
+  footer .footer_main h5 {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
